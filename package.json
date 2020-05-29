@@ -1,6 +1,6 @@
 {
   "name": "lit-selector",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "LitSelector is a small and fast JavaScript library. It allows to select elements of the DOM in a very easy and efficient way.",
   "repository": "regdev18/lit-selector",
   "main": "index.js",
