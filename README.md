@@ -22,12 +22,12 @@ CDN
   In this example, the first element in the document with the class "myclass" is returned:
 </p>
 
-```
+```javascript
 const el = ls(".myclass");
 ```
 
 ### A more complex selector
-```
+```javascript
 const el = ls("div.user-panel.main input[name='login']");
 ```
 
@@ -37,7 +37,7 @@ const el = ls("div.user-panel.main input[name='login']");
   Here, we get a list of **p** elements whose immediate parent element is a **div** with the class highlighted and which are located inside a container whose ID is test.
 </p>
 
-```
+```javascript
 const container = ls("#test"); 
 const matches = container.ls("div.highlighted > p");
 ```
@@ -51,7 +51,7 @@ Otherwise, you can simply use standard array notation to access the contents of 
 
 </p>
 
-```
+```javascript
 const users = ls(".users");      
 users.forEach(userItem => console.log(userItem));
 ```
